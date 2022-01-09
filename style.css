@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.block-text, .block-area,.block-choose{
+    min-height: 250px;
+    border-radius: 10px;
+    background-color: gainsboro;
+    padding: 30px;
+    box-shadow: 0 1px 2px rgb(172, 159, 159);
+    position: relative;
+}
+.blockTextArea,.block-style,.first-box,.second-box{
+    display: none;
+}
+P{
+    line-height: 30px;
+   }
+.block-btn{
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.btnEdit, .btnStyle{
+    width: 60px;
+    height: 40px;
+    background-color: gold;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 1px 2px rgb(116, 95, 3);
+}
+.btnStyle{
+    background-color: royalblue;
+    box-shadow: 0 1px 2px rgb(39, 5, 163);
+}
+.textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+}
+.btnAdd, .btnSave{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(235, 25, 10);
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    box-shadow: 0 1px 2px rgb(116, 3, 3);
+    margin-top: 5px;
+}
+.btnSave{
+    background-color: rgb(38, 150, 10);
+    box-shadow: 0 1px 2px rgb(2, 66, 13);
+}
+.style-size,.style-family,.style-colors,.style-textStyle{
+    width: 280px;
+    height: 50px;
+    padding: 2px;
+    margin-top: 2px;
+}
+h4{
+    padding-bottom: 3px;
+}
+.radio{
+    display: flex;
+    justify-content: space-around;
+}
+.fontFamily{
+    width: 280px;
+    height: 25px;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgb(22, 24, 22);
+    background-color: rgb(245, 243, 243);
+}
+.btnColor,.btnBgColor{
+    width: 110px;
+    height: 25px;
+    background-color: grey;
+    color: white;
+    border: 0;
+    box-shadow: 0 1px 2px rgb(22, 24, 22);
+    border-radius: 2px;
+}
+.boldText,.cursiveText{
+    width: 15px;
+    height: 15px;
+    box-shadow: 0 1px 2px rgb(146, 148, 146);
+    margin-right: 3px;
+}
+.colors{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 45px;
+    right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.color-box{
+    width: 50px;
+    height: 50px;
+}
+.chooseTable,.chooseList{
+    margin-top: 8px;
+    margin-right: 5px;
+}
+ul{
+    margin-left: 60px;
+    margin-top: 10px
+}
+.create-list{
+    width: 500px;
+    height: 150px;
+    margin-top: 15px;
+}
+.create-table{
+    margin-top: 10px;
+}
+.list,.table{
+    display: flex;
+    width: 100%;
+    height: 40px;
+}
+.width{
+    display: flex;
+    justify-content: space-between;
+}
+.list-count,.list-type,.table-count{
+    width: 580px;
+    height: 25px;
+    position: absolute;
+    right: 30px;
+    border: 0;
+    box-shadow: 0 1px 2px rgb(22, 24, 22);
+    border-radius: 2px;
+    padding: 5px;
+    color: rgb(122, 120, 120);
+}
+.table-width{
+    width: 76px;
+    height: 25px;
+    border: 0;
+    box-shadow: 0 1px 2px rgb(22, 24, 22);
+    border-radius: 2px;
+    padding: 5px;
+    color: rgb(122, 120, 120);
+}
+h5{
+    color: rgb(53, 46, 46);
+    line-height: 25px;
+}
+.btnList,.btnTable{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(38, 150, 10);
+    box-shadow: 0 1px 2px rgb(2, 66, 13);
+    border: 0;
+    border-radius: 2px;
+    color: white;
+}
+.bold{
+    font-weight: bold;
+}
+.cursive{
+    font-family: cursive;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
